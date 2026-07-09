@@ -2,7 +2,7 @@
 ! Description: Personal ad, tracking, telemetry and analytics blocking list
 ! Version: 2026.07.09.1
 ! Expires: 30 days
-! Homepage: https://github.com/YOUR_USERNAME/miraj-custom-filters
+! Homepage: https://github.com/iammiraj/miraj-custom-filters
 ! License: CC BY-SA 4.0
 
 ! AdBlock Tester local bait
