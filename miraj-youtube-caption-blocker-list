@@ -1,14 +1,38 @@
-! 13 Dec 2025 https://www.youtube.com
+! Title: Miraj YouTube Filters
+! Description: Removes YouTube Shorts metadata, captions, and Google sign-in prompts
+! Version: 2026.07.09.1
+! Expires: 1 day
+! Homepage: https://github.com/iammiraj/miraj-youtube-filters
+! License: CC BY-SA 4.0
+
+! ---------------------------------------------------------------------------
+! YouTube Shorts
+! ---------------------------------------------------------------------------
+
+! Hide Shorts metadata panel
 www.youtube.com##.ytReelMetapanelViewModelHost
 
-! Block Google sign-in popups / overlays
+! ---------------------------------------------------------------------------
+! Google Sign-In Prompts
+! ---------------------------------------------------------------------------
+
+! Block Google One Tap sign-in script
 ||accounts.google.com/gsi/client$script,redirect=noopjs
 
-! Disable captions on normal YouTube videos
+! ---------------------------------------------------------------------------
+! YouTube Video Captions
+! ---------------------------------------------------------------------------
+
+! Hide caption display container
 youtube.com##.ytp-caption-window-container
+
+! Hide CC button
 youtube.com##.ytp-subtitles-button
 
-! Disable captions on YouTube Shorts
+! ---------------------------------------------------------------------------
+! YouTube Shorts Captions
+! ---------------------------------------------------------------------------
+
 youtube.com##ytd-reel-video-renderer .captions-text
 youtube.com##ytd-reel-video-renderer .caption-window
 youtube.com##ytd-reel-video-renderer [aria-label*="Captions"]
