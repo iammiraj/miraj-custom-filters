@@ -1,0 +1,69 @@
+! AdBlock Tester local bait
+/ads.js$script
+/pagead.js$script
+/advertisement.js$script
+/analytics.js$script
+
+! Google Ads
+||pagead2.googlesyndication.com^$all
+||googleads.g.doubleclick.net^$all
+||securepubads.g.doubleclick.net^$all
+||ad.doubleclick.net^$all
+||stats.g.doubleclick.net^$all
+
+! Amazon analytics
+||analytics.s3.amazonaws.com^
+||analyticsengine.s3.amazonaws.com^
+
+! Yahoo
+||adtech.yahooinc.com^
+
+! TikTok
+||log.byteoversea.com^
+||mon.tiktokv.com^
+
+! Adjust
+||app.adjust.world^
+
+! Unity Ads
+||webview.unityads.unity3d.com^
+||config.unityads.unity3d.com^
+||adserver.unityads.unity3d.com^
+||auction.unityads.unity3d.com^
+
+! InMobi
+||i.l.inmobicdn.net^
+
+! Xiaomi
+||tracking.rus.miui.com^
+||data.mistat.xiaomi.com^
+||data.mistat.rus.xiaomi.com^
+||data.mistat.india.xiaomi.com^
+
+! Huawei
+||grs.hicloud.com^
+
+! Realme / Oppo
+||iot-eu-logser.realme.com^
+||bdapi-ads.realmemobile.com^
+||data.ads.oppomobile.com^
+||adx.ads.oppomobile.com^
+||adsfs.oppomobile.com^
+||ck.ads.oppomobile.com^
+
+! Apple telemetry
+||iadsdk.apple.com^
+||api-adservices.apple.com^
+||weather-analytics-events.apple.com^
+||notes-analytics-events.apple.com^
+||books-analytics-events.apple.com^
+
+! Roku
+||ads.roku.com^
+||p.ads.roku.com^
+
+! Naver
+||wcs.naver.net^
+
+! VK
+||vk-ads.com^
