@@ -1,3 +1,10 @@
+! Title: Miraj Custom Filters
+! Description: Personal ad, tracking, telemetry and analytics blocking list
+! Version: 2026.07.09.1
+! Expires: 1 day
+! Homepage: https://github.com/YOUR_USERNAME/miraj-custom-filters
+! License: CC BY-SA 4.0
+
 ! AdBlock Tester local bait
 /ads.js$script
 /pagead.js$script
@@ -5,11 +12,11 @@
 /analytics.js$script
 
 ! Google Ads
-||pagead2.googlesyndication.com^$all
-||googleads.g.doubleclick.net^$all
-||securepubads.g.doubleclick.net^$all
-||ad.doubleclick.net^$all
-||stats.g.doubleclick.net^$all
+||pagead2.googlesyndication.com^
+||googleads.g.doubleclick.net^
+||securepubads.g.doubleclick.net^
+||ad.doubleclick.net^
+||stats.g.doubleclick.net^
 
 ! Amazon analytics
 ||analytics.s3.amazonaws.com^
