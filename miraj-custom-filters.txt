@@ -1,4 +1,4 @@
-! Title: Miraj Custom Filters
+! Title: Miraj Ultimate Filters
 ! Description: Personal ad, tracking, telemetry and analytics blocking list
 ! Version: 2026.07.09.1
 ! Expires: 1 day
