@@ -1,0 +1,14 @@
+! 13 Dec 2025 https://www.youtube.com
+www.youtube.com##.ytReelMetapanelViewModelHost
+
+! Block Google sign-in popups / overlays
+||accounts.google.com/gsi/client$script,redirect=noopjs
+
+! Disable captions on normal YouTube videos
+youtube.com##.ytp-caption-window-container
+youtube.com##.ytp-subtitles-button
+
+! Disable captions on YouTube Shorts
+youtube.com##ytd-reel-video-renderer .captions-text
+youtube.com##ytd-reel-video-renderer .caption-window
+youtube.com##ytd-reel-video-renderer [aria-label*="Captions"]
