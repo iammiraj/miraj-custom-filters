@@ -17,8 +17,7 @@ www.youtube.com##.ytReelMetapanelViewModelHost
 ! ---------------------------------------------------------------------------
 
 ! Block Google One Tap sign-in script
-||accounts.google.com/gsi/client$script,redirect=noopjs
-@@||accounts.google.com/gsi/client$script,domain=claude.ai
+@@||accounts.google.com^$domain=claude.ai
 
 ! ---------------------------------------------------------------------------
 ! YouTube Video Captions
